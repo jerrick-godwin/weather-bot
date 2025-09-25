@@ -15,7 +15,7 @@ An agent based weather data collection and query system that combines real-time 
 
 1. **Clone and setup environment**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jerrick-godwin/weather-bot
    cd weather-bot
    cp .env.example .env
    ```
