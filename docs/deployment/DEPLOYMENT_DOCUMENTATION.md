@@ -158,7 +158,7 @@ Create a `.env.development` file for development-specific settings:
 # Development configuration
 LOG_LEVEL=DEBUG
 UPDATE_INTERVAL_HOURS=24
-CITIES_TO_MONITOR=10
+CITIES_TO_MONITOR=100
 API_TOKEN=  # No authentication for development
 LOG_FORMAT=text
 ```
@@ -391,18 +391,18 @@ kubectl logs -l app=weather-bot
 # .env.development
 LOG_LEVEL=DEBUG
 UPDATE_INTERVAL_HOURS=24
-CITIES_TO_MONITOR=10
+CITIES_TO_MONITOR=100
 API_TOKEN=  # No authentication
 LOG_FORMAT=text
-BACKFILL_MONTHS=1
+BACKFILL_MONTHS=2
 ```
 
 #### Staging
 ```bash
 # .env.staging
 LOG_LEVEL=INFO
-UPDATE_INTERVAL_HOURS=2
-CITIES_TO_MONITOR=50
+UPDATE_INTERVAL_HOURS=1
+CITIES_TO_MONITOR=100
 API_TOKEN=staging-secure-token-here
 LOG_FORMAT=json
 BACKFILL_MONTHS=2

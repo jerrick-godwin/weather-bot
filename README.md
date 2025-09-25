@@ -162,7 +162,7 @@ Key environment variables:
 | `GOOGLE_APPLICATION_CREDENTIALS` | Path to BigQuery service account JSON file | Yes |
 | `API_TOKEN` | Optional API authentication token | No |
 | `UPDATE_INTERVAL_HOURS` | Weather data update frequency | No (default: 1) |
-| `CITIES_TO_MONITOR` | Number of cities to monitor | No (default: 50) |
+| `CITIES_TO_MONITOR` | Number of cities to monitor | No (default: 100) |
 
 ## Deployment
 
